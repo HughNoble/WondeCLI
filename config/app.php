@@ -1,5 +1,6 @@
 <?php
 
+use App\Providers\WondeClientProvider;
 use Illuminate\Support\Facades\Facade;
 
 return [
@@ -177,6 +178,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        WondeClientProvider::class
     ],
 
     /*
